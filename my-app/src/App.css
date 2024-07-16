@@ -1,0 +1,18 @@
+body {
+  background-color: royalblue;
+}
+h1 {
+  color: #daa520;
+  font-family: cursive;
+  text-align: center;
+}
+form {
+  background-color: goldenrod;
+}
+button {
+  text-align: center;
+}
+label{
+  color: navy;
+  font-family: sans-serif;
+}
