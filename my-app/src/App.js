@@ -21,7 +21,7 @@ function Ratings(){
   <input type="radio" name="rating" value="5 Star(s)" id="choice5"/>
   </div>
   )}
-  //step 2 dynamic movie selector
+  //Step 2: dynamic movie selector
 
   function Movie(){
     return(
@@ -35,6 +35,9 @@ function Ratings(){
       </select>
       </div>
     )
+  }
+  function handleUploadClick(){
+    alert("Uploading...")
   }
 //Logic For Form Submission
   //function MovieRaterButton(){
@@ -55,7 +58,7 @@ export default function Toolbar(){
   <div>
     <h1>Movie Rater</h1>
     <center>
-    <form id="movieForm" onSubmit={()=> alert("Thanks for Rating")}>
+    <form id="movieForm" onSubmit={handleUploadClick}> 
     <Ratings/>
     <Movie/>
     <button>Submit</button>
