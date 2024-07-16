@@ -1,4 +1,5 @@
 //U68997808
+//Step 4: Added style in App.css
 import './App.css';
 
 //Step 1: creating a dynamic movie rater button
