@@ -11,8 +11,24 @@ form {
 }
 button {
   text-align: center;
+  background-color: royalblue;
+  color: gold;
+  font-family: sans-serif;
+  padding: 5px;
+  margin-top: 10px;
+}
+button:hover{
+  background-color: navy;
+  color: gold;
+  font-family: cursive;
+  margin-top: 10px;
 }
 label{
   color: navy;
+  font-family: sans-serif;
+}
+option{
+  color: gold;
+  background-color: royalblue;
   font-family: sans-serif;
 }
